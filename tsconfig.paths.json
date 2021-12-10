@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@xmpie/screens": ["src/screens/index", "src/screens/*"],
+      "@xmpie/screens/*": ["src/screens/*"],
+      "@xmpie/hooks": ["src/hooks/index", "src/hooks/*"],
+      "@xmpie/hooks/*": ["src/hooks/*"],
+      "@xmpie/ui": ["src/ui/index" , "src/ui/*"],
+      "@xmpie/ui/*": ["src/ui/*"],
+      "@xmpie/api": ["src/api/index" , "src/api/*"],
+      "@xmpie/api/*": ["src/api/*"],
+      "@xmpie/routes": ["src/routes/index", "src/routes/*"],
+      "@xmpie/routes/*": ["src/routes/*"],
+      "@xmpie/components": ["src/components/index", "src/components/*"],
+      "@xmpie/components/*": ["src/components/*"],
+      "@xmpie/constants": ["src/constants/index", "src/constants/*"],
+      "@xmpie/constants/*": ["src/constants/*"],
+      "@xmpie/style": ["src/style/index", "src/style/*"],
+      "@xmpie/style/*": ["src/style/*"],
+      "@xmpie/themes": ["src/themes/index", "src/themes/*"],
+      "@xmpie/themes/*": ["src/themes/*"],
+      "@xmpie/utils": ["src/utils/index", "src/utils/*"],
+      "@xmpie/utils/*": ["src/utils/*"],
+      "@xmpie/types": ["src/types"]
+    }
+  }
+}
